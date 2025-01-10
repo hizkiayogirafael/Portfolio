@@ -32,7 +32,7 @@ const Frontend = () => {
             className="w-full rounded-[15px]"
             alt="hizkia yogi rafael"
           />
-          <button className="text-[10px] text-white lg:text-[20px] mt-2 lg:mt-4 rounded-3xl w-fit h-fit px-2 lg:px-4 py-1 lg:mb-2 flex items-center gap-1 outline outline-black outline-1 group-hover:outline-white">
+          <button className="text-[10px] text-white lg:text-[20px] mt-2 lg:mt-4 rounded-3xl w-fit h-fit px-2 lg:px-4 py-1 lg:mb-2 flex items-center gap-1 outline outline-white outline-1 ">
             <TfiWorld className="text-white" />
             RafaelNetwork
           </button>
