@@ -23,7 +23,7 @@ const Frontend = () => {
       <div className="w-full h-fit flex flex-col lg:flex-row justify-between pb-3 lg:pb-5 gap-3">
         <Link
           to="/Rafaelnetwork"
-          className="group w-full lg:w-[32.5%] h-fit bg-black outline outline-white outline-1 rounded-[15px] flex flex-col items-center justify-center p-2 lg:p-3 hover:bg-zinc-800 duration-700 hover:text-white"
+          className="group w-full lg:w-[32.5%] h-fit lg:bg-black bg-zinc-900 outline lg:outline-white outline-1 rounded-[15px] flex flex-col items-center justify-center p-2 lg:p-3 hover:bg-white duration-500 lg:hover:bg-zinc-900"
         >
           <img
             draggable="false" // Mencegah drag
@@ -32,15 +32,15 @@ const Frontend = () => {
             className="w-full rounded-[15px]"
             alt="hizkia yogi rafael"
           />
-          <button className="text-[10px] text-white lg:text-[20px] mt-2 lg:mt-4 rounded-3xl w-fit h-fit px-2 lg:px-4 py-1 lg:mb-2 flex items-center gap-1 outline outline-white outline-1 ">
-            <TfiWorld className="text-white" />
+          <button className="text-[10px] text-white lg:text-[20px] mt-2 lg:mt-4 rounded-3xl w-fit h-fit px-2 lg:px-4 py-1 lg:mb-2 flex items-center gap-1 outline outline-1 group-hover:text-black outline-none lg:group-hover:text-white lg:group-hover:outline lg:group-hover:outline-1 lg:group-hover:outline-white">
+            <TfiWorld />
             RafaelNetwork
           </button>
         </Link>
 
         <Link
           to="/Meshcode"
-          className="group w-full lg:w-[32.5%] h-fit bg-black outline outline-white outline-1 rounded-[15px] flex flex-col items-center justify-center p-2 lg:p-3 hover:bg-zinc-800 duration-700 hover:text-white"
+          className="group w-full lg:w-[32.5%] h-fit lg:bg-black bg-zinc-900 outline lg:outline-white outline-1 rounded-[15px] flex flex-col items-center justify-center p-2 lg:p-3 hover:bg-white duration-500 lg:hover:bg-zinc-900"
         >
           <img
             draggable="false" // Mencegah drag
@@ -49,14 +49,14 @@ const Frontend = () => {
             className="w-full rounded-[15px]"
             alt="hizkia yogi rafael"
           />
-          <button className="text-[10px] text-white lg:text-[20px] mt-2 lg:mt-4 rounded-3xl w-fit h-fit px-2 lg:px-4 py-1 lg:mb-2 flex items-center gap-1 outline outline-black outline-1 group-hover:outline-white">
+          <button className="text-[10px] text-white lg:text-[20px] mt-2 lg:mt-4 rounded-3xl w-fit h-fit px-2 lg:px-4 py-1 lg:mb-2 flex items-center gap-1 outline outline-1 group-hover:text-black outline-none lg:group-hover:text-white lg:group-hover:outline lg:group-hover:outline-1 lg:group-hover:outline-white">
             <TfiWorld />
             Meshcode.id
           </button>
         </Link>
         <Link
           to="/Ilventory"
-          className="group w-full lg:w-[32.5%] h-fit bg-black outline outline-white outline-1 rounded-[15px] flex flex-col items-center justify-center p-2 lg:p-3 hover:bg-zinc-800 duration-700 hover:text-white"
+          className="group w-full lg:w-[32.5%] h-fit lg:bg-black bg-zinc-900 outline lg:outline-white outline-1 rounded-[15px] flex flex-col items-center justify-center p-2 lg:p-3 hover:bg-white duration-500 lg:hover:bg-zinc-900"
         >
           <img
             draggable="false" // Mencegah drag
@@ -65,7 +65,7 @@ const Frontend = () => {
             className="w-full rounded-[15px]"
             alt="hizkia yogi rafael"
           />
-          <button className="text-[10px] text-white lg:text-[20px] mt-2 lg:mt-4 rounded-3xl w-fit h-fit px-2 lg:px-4 py-1 lg:mb-2 flex items-center gap-1 outline outline-black outline-1 group-hover:outline-white">
+          <button className="text-[10px] text-white lg:text-[20px] mt-2 lg:mt-4 rounded-3xl w-fit h-fit px-2 lg:px-4 py-1 lg:mb-2 flex items-center gap-1 outline outline-1 group-hover:text-black outline-none lg:group-hover:text-white lg:group-hover:outline lg:group-hover:outline-1 lg:group-hover:outline-white">
             <TfiWorld />
             IL-Ventory
           </button>
@@ -75,7 +75,7 @@ const Frontend = () => {
       <div className="w-full h-fit flex flex-col lg:flex-row justify-between pb-3 gap-3">
         <Link
           to="/Planahead"
-          className="group w-full lg:w-[32.5%] h-fit bg-black outline outline-white outline-1 rounded-[15px] flex flex-col items-center justify-center p-2 lg:p-3 hover:bg-zinc-800 duration-700 hover:text-white"
+          className="group w-full lg:w-[32.5%] h-fit lg:bg-black bg-zinc-900 outline lg:outline-white outline-1 rounded-[15px] flex flex-col items-center justify-center p-2 lg:p-3 hover:bg-white duration-500 lg:hover:bg-zinc-900"
         >
           <img
             draggable="false" // Mencegah drag
@@ -84,14 +84,14 @@ const Frontend = () => {
             className="w-full rounded-[15px]"
             alt="hizkia yogi rafael"
           />
-          <button className="text-[10px] text-white lg:text-[20px] mt-2 lg:mt-4 rounded-3xl w-fit h-fit px-2 lg:px-4 py-1 lg:mb-2 flex items-center gap-1 outline outline-black outline-1 group-hover:outline-white">
+          <button className="text-[10px] text-white lg:text-[20px] mt-2 lg:mt-4 rounded-3xl w-fit h-fit px-2 lg:px-4 py-1 lg:mb-2 flex items-center gap-1 outline outline-1 group-hover:text-black outline-none lg:group-hover:text-white lg:group-hover:outline lg:group-hover:outline-1 lg:group-hover:outline-white">
             <TfiWorld />
             Plan a Head
           </button>
         </Link>
         <Link
           to="/Danaamal"
-          className="group w-full lg:w-[32.5%] h-fit bg-black outline outline-white outline-1 rounded-[15px] flex flex-col items-center justify-center p-2 lg:p-3 hover:bg-zinc-800 duration-700 hover:text-white"
+          className="group w-full lg:w-[32.5%] h-fit lg:bg-black bg-zinc-900 outline lg:outline-white outline-1 rounded-[15px] flex flex-col items-center justify-center p-2 lg:p-3 hover:bg-white duration-500 lg:hover:bg-zinc-900"
         >
           <img
             draggable="false" // Mencegah drag
@@ -100,12 +100,12 @@ const Frontend = () => {
             className="w-full rounded-[15px]"
             alt="hizkia yogi rafael"
           />
-          <button className="text-[10px] text-white lg:text-[20px] mt-2 lg:mt-4 rounded-3xl w-fit h-fit px-2 lg:px-4 py-1 lg:mb-2 flex items-center gap-1 outline outline-black outline-1 group-hover:outline-white">
+          <button className="text-[10px] text-white lg:text-[20px] mt-2 lg:mt-4 rounded-3xl w-fit h-fit px-2 lg:px-4 py-1 lg:mb-2 flex items-center gap-1 outline outline-1 group-hover:text-black outline-none lg:group-hover:text-white lg:group-hover:outline lg:group-hover:outline-1 lg:group-hover:outline-white">
             <TfiWorld />
             Dana Amal Polibatam
           </button>
         </Link>
-        <Link className="group w-full lg:w-[32.5%] h-fit bg-black outline outline-white outline-1 rounded-[15px] flex flex-col items-center justify-center p-2 lg:p-3 hover:bg-zinc-800 duration-700 hover:text-white">
+        <Link className="group w-full lg:w-[32.5%] h-fit lg:bg-black bg-zinc-900 outline lg:outline-white outline-1 rounded-[15px] flex flex-col items-center justify-center p-2 lg:p-3 hover:bg-white duration-500 lg:hover:bg-zinc-900">
           <img
             draggable="false" // Mencegah drag
             onContextMenu={preventContextMenu}
@@ -113,7 +113,7 @@ const Frontend = () => {
             className="w-full rounded-[15px]"
             alt="hizkia yogi rafael"
           />
-          <button className="text-[10px] text-white lg:text-[20px] mt-2 lg:mt-4 rounded-3xl w-fit h-fit px-2 lg:px-4 py-1 lg:mb-2 flex items-center gap-1 outline outline-black outline-1 group-hover:outline-white">
+          <button className="text-[10px] text-white lg:text-[20px] mt-2 lg:mt-4 rounded-3xl w-fit h-fit px-2 lg:px-4 py-1 lg:mb-2 flex items-center gap-1 outline outline-1 group-hover:text-black outline-none lg:group-hover:text-white lg:group-hover:outline lg:group-hover:outline-1 lg:group-hover:outline-white">
             <TfiWorld />
             Coming Soon
           </button>
