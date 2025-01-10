@@ -67,7 +67,7 @@ const Header = () => {
           draggable="false" // Mencegah drag
           onContextMenu={preventContextMenu}
           src={fototujuh}
-          className="w-[55px] lg:w-[250px] max-w-full hidden lg:block hover:outline hover:outline-white hover:outline-4 hover:rounded-[29px] transition-all duration-500"
+          className="w-[55px] lg:w-[250px] max-w-full hidden hover:outline hover:outline-white hover:outline-4 hover:rounded-[29px] transition-all duration-500"
           alt="hizkia yogi rafael"
         />
       </div>
