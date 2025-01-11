@@ -40,9 +40,9 @@ const Ilventory = () => {
       </div>
       {/* Description */}
       <h1 className="text-[11px] pb-2 lg:text-[20px] lg:pb-4">
-        Description : Front end Project which is Company Profile for Digital
-        Creative Freelance named Meshcode.id that provides all Service and
-        Portfolio.
+        Description : Fullstack Project in Infinite Learning Indonesia that
+        designed to manage stock of goods, the process of borrowing and
+        returning goods, and monitoring the status of goods in real-time.
       </h1>
       <hr className="opacity-30 text-white" />
       {/* Project Type */}
